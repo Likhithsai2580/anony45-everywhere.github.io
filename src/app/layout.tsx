@@ -1,13 +1,27 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
 import { ThemeProvider } from 'next-themes';
 
-const poppins = Poppins({ 
-  weight: ['400', '600', '700'], 
-  subsets: ["latin"],
-  display: 'swap',
-});
+const poppins = localFont({
+  src: [
+    {
+      path: '../../public/fonts/Poppins-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Poppins-SemiBold.ttf',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Poppins-Bold.ttf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
+})
 
 export const metadata: Metadata = {
   title: "Portfolio by Likhith Sai",

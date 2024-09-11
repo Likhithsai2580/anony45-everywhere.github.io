@@ -9,7 +9,7 @@
     "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
-    "next": "14.2.6",
+    "next": "^14.2.6",
     "next-themes": "^0.3.0",
     "parse-json": "^8.1.0",
     "react": "^18",
@@ -18,14 +18,16 @@
   "devDependencies": {
     "@types/node": "^20",
     "@types/parse-json": "^4.0.2",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
     "@types/tailwindcss": "^3.0.11",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "^0.2.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^2.2.19",
-    "typescript": "^5"
+    "typescript": "^5.0.0"
   }
 }
