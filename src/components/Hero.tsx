@@ -1,7 +1,10 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 const Hero: React.FC = () => {
+  const router = useRouter();
+
   return (
     <section className="bg-gradient-to-b from-blue-50 to-white dark:from-gray-900 dark:to-gray-800 py-32 mt-16">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
@@ -28,7 +31,7 @@ const Hero: React.FC = () => {
                 {/* Your text content here */}
               </div>
               <Image
-                src="/images/profile.jpg"
+                src={`${router.basePath}/images/profile.jpg`}
                 alt="Likhith Sai"
                 layout="fill"
                 objectFit="cover"
