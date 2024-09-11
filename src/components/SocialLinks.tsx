@@ -23,7 +23,7 @@ const SocialLinks: React.FC = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/semala-likith-sai-47570a307/',
+      url: 'https://www.linkedin.com/in/seemala-likith-sai-47570a307/',
       icon: 'fab fa-linkedin',
       color: 'bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800',
       description: 'Connect with me professionally'
