@@ -21,6 +21,8 @@ const poppins = localFont({
       style: 'normal',
     },
   ],
+  variable: '--font-poppins',
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
