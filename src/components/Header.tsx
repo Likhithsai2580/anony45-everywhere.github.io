@@ -15,7 +15,7 @@ const Header: React.FC = () => {
           <li><Link href="#projects" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Projects</Link></li>
           <li><Link href="#skills" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Skills</Link></li>
           <li><Link href="#contact" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Contact</Link></li>
-          <li><a href="/resume.pdf" className="bg-blue-600 text-white dark:bg-blue-500 dark:text-gray-100 px-4 py-2 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition duration-300">Resume</a></li>
+          <li><a href="/Resume.pdf" className="bg-blue-600 text-white dark:bg-blue-500 dark:text-gray-100 px-4 py-2 rounded-full hover:bg-blue-700 dark:hover:bg-blue-600 transition duration-300">Resume</a></li>
           <li><DarkModeToggle /></li>
         </ul>
       </nav>
