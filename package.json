@@ -1,0 +1,31 @@
+{
+  "name": "anony45-everywhere",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.6",
+    "next-themes": "^0.2.1",
+    "parse-json": "^8.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/parse-json": "^4.0.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/tailwindcss": "^3.0.11",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "^0.2.4",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^2.2.19",
+    "typescript": "^5"
+  }
+}
