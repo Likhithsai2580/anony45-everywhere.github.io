@@ -6,6 +6,7 @@ const nextConfig = {
   },
   // Add this line:
   trailingSlash: true,
+  basePath: '/anony45-everywhere.github.io',
 };
 
 module.exports = nextConfig;
