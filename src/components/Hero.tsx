@@ -22,18 +22,12 @@ const Hero: React.FC = () => {
         </div>
         <div className="md:w-1/2 flex justify-center">
           <div className="relative w-72 h-72 rounded-full overflow-hidden shadow-2xl border-4 border-white dark:border-gray-700">
-            <div className="relative">
-              <div className="absolute inset-0 bg-black opacity-50"></div>
-              <div className="relative z-10">
-                {/* Your text content here */}
-              </div>
-              <Image
-                src="/images/profile.jpg"
-                alt="Likhith Sai"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
+            <Image
+              src="/images/profile.jpg"
+              alt="Likhith Sai"
+              layout="fill"
+              objectFit="cover"
+            />
           </div>
         </div>
       </div>
