@@ -25,8 +25,8 @@ const Hero: React.FC = () => {
             <Image
               src="/images/profile.jpg"
               alt="Likhith Sai"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }}
             />
           </div>
         </div>

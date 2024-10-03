@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Set this to your default branch
+      - main
 
 jobs:
   deploy:
@@ -21,9 +21,6 @@ jobs:
         
       - name: Build
         run: npm run build
-        
-      - name: List build output
-        run: ls -R out
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

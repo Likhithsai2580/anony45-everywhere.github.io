@@ -11,21 +11,18 @@
   "dependencies": {
     "next": "^14.2.14",
     "next-themes": "^0.3.0",
-    "parse-json": "^8.1.0",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/parse-json": "^4.0.2",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/tailwindcss": "^3.0.11",
     "autoprefixer": "^10.4.20",
     "eslint": "^8",
-    "eslint-config-next": "^0.2.4",
+    "eslint-config-next": "^14.0.0",
     "postcss": "^8.4.41",
-    "tailwindcss": "^2.2.19",
+    "tailwindcss": "^3.3.0",
     "typescript": "^5"
   }
 }
